@@ -1,0 +1,147 @@
+/* background setup */
+.background {
+  background-repeat: no-repeat;
+  /* custom background-position */
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  /* ie8- graceful degradation */
+  background-position: 50% 50%\9 !important;
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #272727;
+  text-align: center;
+}
+
+.content-a {
+  width: 100%;
+  min-height: 100%;
+}
+/* content centering styles */
+
+.content-a {
+  display: table;
+}
+
+.content-b {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+}
+/* visual styles */
+
+section {
+  background: #9ed100;
+}
+
+#mainDataContainer {
+  text-align: center;
+  margin-top: 0px;
+  padding: 0px;
+  height: auto;
+}
+
+.no-Pointer-Events {
+  pointer-events: none;
+}
+
+#mainData {
+  position: relative;
+  padding: 5px;
+  display: inline-block;
+  margin: 0 auto;
+  height: 310px;
+  width: 310px;
+  border-radius: 150px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.fixed-size {
+  min-width: 300px;
+}
+
+.headline {
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  background: tranparent;
+  text-align: center;
+}
+
+#location {
+  margin: 0px;
+  padding: 0px;
+}
+
+#location h1 {
+  margin-bottom: 0px;
+  font-size: 3em;
+}
+
+#time {
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  top: -15px;
+}
+
+#temp {
+  position: relative;
+  font-size: 7em;
+  margin: 0px;
+  padding: 0px;
+  top: -60px;
+}
+
+#icon img {
+  position: relative;
+  top: -10px;
+  width: 100px;
+  margin: 0px;
+}
+
+#conditions {
+  position: relative;
+  top: -90px;
+  line-height: 1em;
+  font-size: 1.2em;
+}
+
+#c {
+  font-size: 1.9em;
+}
+
+#unitButtons {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  height: 75px;
+}
+
+.button {
+  display: inline;
+  position: relative;
+  width: 150px;
+  height: 75%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.5em;
+}
+@media screen and (max-width: 400px) {
+    
+}
